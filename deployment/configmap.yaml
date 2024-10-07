@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap
-data:
-  DB_NAME: "udacitydb"
-  DB_USERNAME: "rootuser"
-  DB_HOST: "postgresql-service.default.svc.cluster.local"
-  DB_PORT: "5432"
